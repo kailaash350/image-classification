@@ -1,0 +1,43 @@
+body{
+  background-color: #fdf5f5;
+}
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  height: 40px;
+}
+.image-area{
+  display: flex;
+  width: 300px;
+  height: 100px;
+  padding:35px;
+  margin-top: 50px;
+  border:2px dashed #23f508;
+  background-color: rgba(126, 243, 155, 0.349);
+  color: #000000;
+}
+.upload-image-wrapper{
+  display: flex;
+}
+.image-item-btn-wrapper {
+  display: flex;
+  margin-left: 10px;
+}
+.image-item {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  border: 0px solid red;
+}
+.prediction-wrapper{
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+  border: 0px solid red;
+}
+.prediction-header{
+
+}
